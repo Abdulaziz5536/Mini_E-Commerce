@@ -37,5 +37,5 @@ A full-stack e-commerce application built with **React**, **Node.js**, **Express
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/ecommerce-site.git
+git clone https://github.com/Abdulaziz5536/ecommerce-site.git
 cd ecommerce-site
