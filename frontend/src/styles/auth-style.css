@@ -1,0 +1,155 @@
+/*login page */
+body{
+      
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
+   background:whitesmoke;
+}
+.login{
+  width: 300px;
+  margin: 100px auto;
+  padding: 25px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+
+}
+.login input{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: #f2f2f2;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+#login-psw-input{
+  margin-top: 15px;
+}
+.login button{
+  margin-top: 20px;
+ margin-left: 0px;
+   padding: 10px;
+   width: 300px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+ 
+}
+#register-button{
+  margin-top: 20px;
+   margin-left: 0px;
+   padding: 10px;
+  background: #073409;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#register-button:hover{
+  background-color: #144f17;
+}
+.login button:hover{
+  background-color: #3f9342;
+}
+.login h1{
+  display: flex;
+  justify-content: center;
+}
+.login h2{
+  color: rgb(108, 20, 20);
+  display: flex;
+  justify-content: center;
+}
+
+
+/* register page */
+.register{
+   width: 300px;
+  margin: 100px auto;
+  padding: 25px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.register input{
+    width: 100%;
+  border: 0;
+  outline: 0;
+  background: #f2f2f2;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.register button{
+     margin-top: 20px;
+ margin-left: 0px;
+   padding: 10px;
+   width: 300px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#have-an-account-btn{
+    margin-top: 20px;
+   margin-left: 0px;
+   padding: 10px;
+  background: #073409;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.register button:hover{
+   background-color:  #3f9342;
+}
+#have-an-account-btn:hover{
+  background-color:#144f17;
+}
+.register h1{
+  display: flex;
+  justify-content: center;
+}
+.register h2{
+  color: rgb(108, 20, 20);
+   display: flex;
+  justify-content: center;
+}
+#register-eml-input{
+  margin-top: 15px;
+}
+#register-psw-input{
+  margin-top: 15px;
+}
+
+
+
+
+
+
+/*products page */
+.products-container {
+  display: flex;
+  justify-content: left;   
+  gap: 20px;                 
+  flex-wrap: wrap; 
+}         
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.product img {
+  width: 200px;
+  height: 100px;
+}
+#logout-button{
+  display: flex;
+  justify-content: right;
+}
+
